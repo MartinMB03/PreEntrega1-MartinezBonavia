@@ -1,0 +1,284 @@
+[
+  {
+   "id": 1,
+   "category": "Remera",
+   "name": "Remera de F1",
+   "description": "Remera 100% algodon",
+   "img": {
+    "front": "/Remeras/remera1front.webp",
+    "back": "/Remeras/remera1back.webp"
+   },
+   "price": 16.399,
+   "dues": 3,
+   "stock": 16,
+   "sells": 4
+  },
+  {
+    "id": 2,
+    "category": "Remera",
+    "name": "Remera Negra lisa",
+    "description": "primera calidad, remera lisa, cuello en v",
+    "img": {
+     "front": "/Remeras/remera2front.webp",
+     "back": "/Remeras/remera2back.webp"
+    },
+    "price": 10.999,
+    "dues": 3,
+    "stock": 19,
+    "sells": 12
+   },
+   {
+    "id": 3,
+    "category": "Remera",
+    "name": "Remera Estampada",
+    "description": "Remera Estampada verde",
+    "img": {
+     "front": "/Remeras/remera3front.webp",
+     "back": "/Remeras/remera3back.webp"
+    },
+    "price": 13.999,
+    "dues": 3,
+    "stock": 19,
+    "sells": 12
+   },
+   {
+    "id": 4,
+    "category": "Remera",
+    "name": "Remera Legendary",
+    "description": "Remera Legendary",
+    "img": {
+     "front": "/Remeras/remera4front.webp",
+     "back": "/Remeras/remera4back.webp"
+    },
+    "price": 14.499,
+    "dues": 3,
+    "stock": 3,
+    "sells": 22
+   },
+   {
+    "id": 5,
+    "category": "Remera",
+    "name": "Remera O`Neill",
+    "description": "Remera  O`Neill Original",
+    "img": {
+     "front": "/Remeras/remera5front.webp",
+     "back": "/Remeras/remera5back.webp"
+    },
+    "price": 11.999,
+    "dues": 3,
+    "stock": 29,
+    "sells": 3
+   },
+   {
+    "id": 6,
+    "category": "Camisa",
+    "name": "Camisa Lisa morada",
+    "description": "Camisa lisa formal",
+    "img": {
+     "front": "/Camisas/camisa1front.webp",
+     "back": "/Camisas/camisa1back.webp"
+    },
+    "price": 22.999,
+    "dues": 3,
+    "stock": 9,
+    "sells": 37
+   },
+   {
+    "id": 7,
+    "category": "Camisa",
+    "name": "Camisa Lisa Roja",
+    "description": "Camisa lisa formal",
+    "img": {
+     "front": "/Camisas/camisa2front.webp",
+     "back": "/Camisas/camisa2back.webp"
+    },
+    "price": 22.999,
+    "dues": 3,
+    "stock": 27,
+    "sells": 12
+   },
+   {
+    "id": 8,
+    "category": "Camisa",
+    "name": "Camisa Lisa Rosa",
+    "description": "Camisa lisa formal",
+    "img": {
+     "front": "/Camisas/camisa3front.webp",
+     "back": "/Camisas/camisa3back.webp"
+    },
+    "price": 22.999,
+    "dues": 3,
+    "stock": 12,
+    "sells": 3
+   },
+   {
+    "id": 9,
+    "category": "Camisa",
+    "name": "Camisa Floreada",
+    "description": "Camisa de verano floreada",
+    "img": {
+     "front": "/Camisas/camisa4front.webp",
+     "back": "/Camisas/camisa4back.webp"
+    },
+    "price": 28.999,
+    "dues": 3,
+    "stock": 9,
+    "sells": 25
+   },
+   {
+    "id": 10,
+    "category": "Camisa",
+    "name": "Camisa de Hojas",
+    "description": "Camisa de Verano moderna",
+    "img": {
+     "front": "/Camisas/camisa5front.webp",
+     "back": "/Camisas/camisa5back.webp"
+    },
+    "price": 29.999,
+    "dues": 3,
+    "stock": 15,
+    "sells": 7
+   },
+   {
+    "id": 11,
+    "category": "Camisa",
+    "name": "Camisa de Gatitos",
+    "description": "Camisa de verano",
+    "img": {
+     "front": "/Camisas/camisa6front.webp",
+     "back": "/Camisas/camisa6back.webp"
+    },
+    "price": 32.999,
+    "dues": 3,
+    "stock": 9,
+    "sells": 28
+   },
+   {
+    "id": 12,
+    "category": "Pantalones",
+    "name": "Pantalon de Jean",
+    "description": "Pantalon de jean estandar",
+    "img": {
+     "front": "/Pantalones/pantalon1front.webp",
+     "back": "/Pantalones/pantalon1back.webp"
+    },
+    "price": 35.999,
+    "dues": 3,
+    "stock": 19,
+    "sells": 48
+   },
+   {
+    "id": 13,
+    "category": "Pantalones",
+    "name": "Pantalon de Jean overside",
+    "description": "Pantalon de jean overside moderno",
+    "img": {
+     "front": "/Pantalones/pantalon2front.webp",
+     "back": "/Pantalones/pantalon2back.webp"
+    },
+    "price": 38.579,
+    "dues": 3,
+    "stock": 8,
+    "sells": 78
+   },
+   {
+    "id": 14,
+    "category": "Pantalones",
+    "name": "Pantalon Jogger",
+    "description": "Pantalon jogger",
+    "img": {
+     "front": "/Pantalones/pantalon3front.webp",
+     "back": "/Pantalones/pantalon3back.webp"
+    },
+    "price": 41.199,
+    "dues": 3,
+    "stock": 12,
+    "sells": 8
+   },
+   {
+    "id": 15,
+    "category": "Pantalones",
+    "name": "Pantalon de Jogging",
+    "description": "Pantalon de jogging",
+    "img": {
+     "front": "/Pantalones/pantalon4front.webp",
+     "back": "/Pantalones/pantalon4back.webp"
+    },
+    "price": 27.499,
+    "dues": 3,
+    "stock": 9,
+    "sells": 18
+   },
+   {
+    "id": 16,
+    "category": "Camperas",
+    "name": "Campera de Neopreme",
+    "description": "campera de neopreme",
+    "img": {
+     "front": "/Camperas/campera1front.webp",
+     "back": "/Camperas/campera1back.webp"
+    },
+    "price": 45.999,
+    "dues": 6,
+    "stock": 11,
+    "sells": 28
+   },
+   {
+    "id": 17,
+    "category": "Camperas",
+    "name": "Campera de Plumas",
+    "description": "Campera de plumas original",
+    "img": {
+     "front": "/Camperas/campera2front.webp",
+     "back": "/Camperas/campera2back.webp"
+    },
+    "price": 49.999,
+    "dues": 6,
+    "stock": 12,
+    "sells": 8
+   },
+   {
+    "id": 18,
+    "category": "Camperas",
+    "name": "Campera de Ferrari",
+    "description": "Campera de ferrari original",
+    "img": {
+     "front": "/Camperas/campera3front.webp",
+     "back": "/Camperas/campera3back.webp"
+    },
+    "price": 63.499,
+    "dues": 6,
+    "stock": 15,
+    "sells": 12
+   },
+   {
+    "id": 19,
+    "category": "Camperas",
+    "name": "Campera Rompeviento",
+    "description": "campera rompeviento de nilon",
+    "img": {
+     "front": "/Camperas/campera4front.webp",
+     "back": "/Camperas/campera4back.webp"
+    },
+    "price": 41.999,
+    "dues": 6,
+    "stock": 21,
+    "sells": 8
+   },
+   {
+    "id": 19,
+    "category": "Camperas",
+    "name": "Campera Redufit ",
+    "description": "Campera primera piel",
+    "img": {
+     "front": "/Camperas/campera5front.webp",
+     "back": "/Camperas/campera5back.webp"
+    },
+    "price": 32.399,
+    "dues": 6,
+    "stock": 21,
+    "sells": 7
+   }
+   
+  
+ ]

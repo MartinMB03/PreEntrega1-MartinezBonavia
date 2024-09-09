@@ -1,4 +1,3 @@
-
-const Pill = ( {quantity} ) => <span className="pill"> { quantity } </span>;
+const Pill = ( {quantity} ) => <span className='pill'>{ quantity }</span>;
 
 export default Pill;
