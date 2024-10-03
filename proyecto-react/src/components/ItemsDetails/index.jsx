@@ -1,23 +1,55 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
-
+import { CartContext } from '../../context/cartContext';
+import { doc, getDoc } from "firebase/firestore";
+import { db } from '../../config/firebase'; 
 
 const ItemsDetails = () => {
-  const { id } = useParams(); 
+  const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const [quantity, setQuantity] = useState(1); 
+  const { addItem } = useContext(CartContext);
 
   useEffect(() => {
-    fetch('/src/data/items.json')
-      .then(res => res.json())
-      .then(data => {
-        const foundProduct = data.find(p => p.id === parseInt(id));
-        setProduct(foundProduct);
-      })
-      .catch(err => console.error('Error fetching product details:', err)); 
+    const fetchProduct = async () => {
+      try {
+        const productDoc = doc(db, "ecommerce-ropa", id); 
+        const productSnapshot = await getDoc(productDoc);
+        
+        if (productSnapshot.exists()) {
+          setProduct({ id: productSnapshot.id, ...productSnapshot.data() });
+        } else {
+          console.error("Producto no encontrado");
+        }
+      } catch (err) {
+        console.error('Error fetching product details:', err);
+      }
+    };
+
+    fetchProduct();
   }, [id]);
 
-  const handleAddToCart = () => {
-    console.log('Producto añadido al carrito:', product);
+  const increase = () => {
+    setQuantity(prevQuantity => prevQuantity + 1);
+  };
+
+  const decrease = () => {
+    setQuantity(prevQuantity => (prevQuantity > 1 ? prevQuantity - 1 : 1)); 
+  };
+
+  const addToCart = () => {
+    if (product) {
+      addItem({
+        id: product.id,
+        name: product.name,
+        img: product.img,
+        price: product.price,
+        description: product.description,
+        category: product.category,
+        quantity,
+      });
+      setQuantity(1);
+    }
   };
 
   if (!product) {
@@ -36,7 +68,17 @@ const ItemsDetails = () => {
         <p>$ {product.price} .-</p>
         <p>{product.dues} CUOTAS SIN INTERÉS</p>
         {product.description && <p>{product.description}</p>}
-        <button className="item-details__add-to-cart" onClick={handleAddToCart}>
+        <div className="item-detail__form--container">
+          <button className="item-detail__form--btn" type="button" onClick={decrease}>-</button>
+          <input
+            className="item-detail__form--input"
+            type="text"
+            value={quantity}
+            readOnly
+          />
+          <button className="item-detail__form--btn" type="button" onClick={increase}>+</button>
+        </div>
+        <button className="item-details__add-to-cart" onClick={addToCart}>
           Agregar al Carrito
         </button>
       </div>

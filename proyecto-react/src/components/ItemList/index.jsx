@@ -1,16 +1,25 @@
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-
+import { collection, getDocs } from "firebase/firestore"; 
+import { db } from '../../config/firebase'; 
 import Item from "../Item";
 
 const ItemList = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('/src/data/items.json')
-      .then(res => res.json())
-      .then(data => setItems(data))
-      .catch(err => console.error('Error fetching items:', err)); // Manejo de errores
+    const fetchItems = async () => {
+      try {
+        const itemsCollection = collection(db, "ecommerce-ropa");
+        const itemSnapshot = await getDocs(itemsCollection);
+        const itemList = itemSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        setItems(itemList);
+      } catch (err) {
+        console.error('Error fetching items:', err);
+      }
+    };
+
+    fetchItems();
   }, []);
 
   return (

@@ -8,7 +8,7 @@
     "front": "/Remeras/remera1front.webp",
     "back": "/Remeras/remera1back.webp"
    },
-   "price": 16.399,
+   "price": 16399,
    "dues": 3,
    "stock": 16,
    "sells": 4
@@ -22,7 +22,7 @@
      "front": "/Remeras/remera2front.webp",
      "back": "/Remeras/remera2back.webp"
     },
-    "price": 10.999,
+    "price": 10999,
     "dues": 3,
     "stock": 19,
     "sells": 12
@@ -36,7 +36,7 @@
      "front": "/Remeras/remera3front.webp",
      "back": "/Remeras/remera3back.webp"
     },
-    "price": 13.999,
+    "price": 13999,
     "dues": 3,
     "stock": 19,
     "sells": 12
@@ -50,7 +50,7 @@
      "front": "/Remeras/remera4front.webp",
      "back": "/Remeras/remera4back.webp"
     },
-    "price": 14.499,
+    "price": 14499,
     "dues": 3,
     "stock": 3,
     "sells": 22
@@ -64,7 +64,7 @@
      "front": "/Remeras/remera5front.webp",
      "back": "/Remeras/remera5back.webp"
     },
-    "price": 11.999,
+    "price": 11999,
     "dues": 3,
     "stock": 29,
     "sells": 3
@@ -78,7 +78,7 @@
      "front": "/Camisas/camisa1front.webp",
      "back": "/Camisas/camisa1back.webp"
     },
-    "price": 22.999,
+    "price": 22999,
     "dues": 3,
     "stock": 9,
     "sells": 37
@@ -92,7 +92,7 @@
      "front": "/Camisas/camisa2front.webp",
      "back": "/Camisas/camisa2back.webp"
     },
-    "price": 22.999,
+    "price": 22999,
     "dues": 3,
     "stock": 27,
     "sells": 12
@@ -106,7 +106,7 @@
      "front": "/Camisas/camisa3front.webp",
      "back": "/Camisas/camisa3back.webp"
     },
-    "price": 22.999,
+    "price": 22999,
     "dues": 3,
     "stock": 12,
     "sells": 3
@@ -120,7 +120,7 @@
      "front": "/Camisas/camisa4front.webp",
      "back": "/Camisas/camisa4back.webp"
     },
-    "price": 28.999,
+    "price": 28999,
     "dues": 3,
     "stock": 9,
     "sells": 25
@@ -134,7 +134,7 @@
      "front": "/Camisas/camisa5front.webp",
      "back": "/Camisas/camisa5back.webp"
     },
-    "price": 29.999,
+    "price": 29999,
     "dues": 3,
     "stock": 15,
     "sells": 7
@@ -148,7 +148,7 @@
      "front": "/Camisas/camisa6front.webp",
      "back": "/Camisas/camisa6back.webp"
     },
-    "price": 32.999,
+    "price": 32999,
     "dues": 3,
     "stock": 9,
     "sells": 28
@@ -162,7 +162,7 @@
      "front": "/Pantalones/pantalon1front.webp",
      "back": "/Pantalones/pantalon1back.webp"
     },
-    "price": 35.999,
+    "price": 35999,
     "dues": 3,
     "stock": 19,
     "sells": 48
@@ -176,7 +176,7 @@
      "front": "/Pantalones/pantalon2front.webp",
      "back": "/Pantalones/pantalon2back.webp"
     },
-    "price": 38.579,
+    "price": 38579,
     "dues": 3,
     "stock": 8,
     "sells": 78
@@ -190,7 +190,7 @@
      "front": "/Pantalones/pantalon3front.webp",
      "back": "/Pantalones/pantalon3back.webp"
     },
-    "price": 41.199,
+    "price": 41199,
     "dues": 3,
     "stock": 12,
     "sells": 8
@@ -204,7 +204,7 @@
      "front": "/Pantalones/pantalon4front.webp",
      "back": "/Pantalones/pantalon4back.webp"
     },
-    "price": 27.499,
+    "price": 27499,
     "dues": 3,
     "stock": 9,
     "sells": 18
@@ -218,7 +218,7 @@
      "front": "/Camperas/campera1front.webp",
      "back": "/Camperas/campera1back.webp"
     },
-    "price": 45.999,
+    "price": 45999,
     "dues": 6,
     "stock": 11,
     "sells": 28
@@ -232,7 +232,7 @@
      "front": "/Camperas/campera2front.webp",
      "back": "/Camperas/campera2back.webp"
     },
-    "price": 49.999,
+    "price": 49999,
     "dues": 6,
     "stock": 12,
     "sells": 8
@@ -246,7 +246,7 @@
      "front": "/Camperas/campera3front.webp",
      "back": "/Camperas/campera3back.webp"
     },
-    "price": 63.499,
+    "price": 63499,
     "dues": 6,
     "stock": 15,
     "sells": 12
@@ -260,7 +260,7 @@
      "front": "/Camperas/campera4front.webp",
      "back": "/Camperas/campera4back.webp"
     },
-    "price": 41.999,
+    "price": 41999,
     "dues": 6,
     "stock": 21,
     "sells": 8
@@ -274,7 +274,7 @@
      "front": "/Camperas/campera5front.webp",
      "back": "/Camperas/campera5back.webp"
     },
-    "price": 32.399,
+    "price": 32399,
     "dues": 6,
     "stock": 21,
     "sells": 7

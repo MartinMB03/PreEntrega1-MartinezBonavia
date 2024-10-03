@@ -1,0 +1,33 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+  
+      p {
+        margin: 10px 0;
+      }
+  
+      .social-links {
+        a {
+          color: white;
+          margin: 0 10px;
+          text-decoration: none;
+          transition: color 0.3s;
+  
+          &:hover {
+            color: purple;
+          }
+        }
+      }
+  
+      .contact-info {
+        margin-top: 15px;
+      }
+    }
+  }
+  

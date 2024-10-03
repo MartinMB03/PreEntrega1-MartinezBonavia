@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import Menu from '../../components/Menu';
 import CartWidget from '../../components/CartWidget';
@@ -7,15 +8,15 @@ const Header = () => {
   const links = [
     {
       label: 'Home',
-      href: '#'
+      href: '/'
     },
     {
       label: 'Tienda',
-      href: '#'
+      href: '/tienda'
     },
     {
       label: 'Contacto',
-      href: '#'
+      href: '/contacto'
     },
   ];
 
@@ -29,7 +30,7 @@ const Header = () => {
         </a>
         <Menu className="navbar" links={links}>
           <li>
-            <a href="" className='navbar__link-button'>
+            <a href="/cart" className='navbar__link-button'>
               <CartWidget quantity={0} />
             </a>
           </li>
